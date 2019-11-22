@@ -333,7 +333,7 @@
 			<key>ShowPicker</key>
 			<true/>
 			<key>Timeout</key>
-			<integer>3</integer>
+			<integer>1</integer>
 			<key>UsePicker</key>
 			<true/>
 		</dict>
