@@ -1,2 +1,3 @@
 APPLE
-.DS_Store
+/**/*.DS_Store
+/**/._*
