@@ -245,110 +245,22 @@
 					<key>PlistPath</key>
 					<string>Contents/Info.plist</string>
 				</dict>
-			</array>
-			<key>Block</key>
-			<array>
 				<dict>
+					<key>BundlePath</key>
+					<string>AGPMInjector.kext</string>
 					<key>Enabled</key>
-					<false/>
-					<key>Identifier</key>
-					<string>com.apple.driver.AppleTyMCEDriver</string>
-				</dict>
-			</array>
-			<key>Patch</key>
-			<array>
-				<dict>
-					<key>Count</key>
-					<integer>1</integer>
-					<key>Enabled</key>
-					<false/>
-					<key>Find</key>
-					<data>dS4Ptg==</data>
-					<key>Identifier</key>
-					<string>com.apple.driver.AppleRTC</string>
-					<key>Limit</key>
-					<integer>0</integer>
-					<key>Mask</key>
-					<data></data>
-					<key>Replace</key>
-					<data>6y4Ptg==</data>
-					<key>ReplaceMask</key>
-					<data></data>
-					<key>Skip</key>
-					<integer>0</integer>
-				</dict>
-				<dict>
-					<key>Count</key>
-					<integer>1</integer>
-					<key>Enabled</key>
-					<false/>
-					<key>Find</key>
-					<data>dTMPtw==</data>
-					<key>Identifier</key>
-					<string>com.apple.driver.AppleRTC</string>
-					<key>Limit</key>
-					<integer>0</integer>
-					<key>Mask</key>
-					<data></data>
-					<key>MaxKernel</key>
-					<string>18.5.0</string>
-					<key>MinKernel</key>
-					<string>18.5.0</string>
-					<key>Replace</key>
-					<data>6zMPtw==</data>
-					<key>ReplaceMask</key>
-					<data></data>
-					<key>Skip</key>
-					<integer>0</integer>
-				</dict>
-				<dict>
-					<key>Base</key>
-					<string>_AcpiOsVprintf</string>
-					<key>Count</key>
-					<integer>0</integer>
-					<key>Enabled</key>
-					<false/>
-					<key>Identifier</key>
-					<string>com.apple.driver.AppleACPIPlatform</string>
-					<key>Limit</key>
-					<integer>0</integer>
-					<key>Mask</key>
-					<data></data>
-					<key>MaxKernel</key>
-					<string>18.5.0</string>
-					<key>MinKernel</key>
-					<string>18.5.0</string>
-					<key>Replace</key>
-					<data>ww==</data>
-					<key>ReplaceMask</key>
-					<data></data>
-					<key>Skip</key>
-					<integer>0</integer>
+					<true/>
+					<key>ExecutablePath</key>
+					<string>Contents/MacOS/AGPMInjector</string>
+					<key>PlistPath</key>
+					<string>Contents/Info.plist</string>
 				</dict>
 			</array>
 			<key>Quirks</key>
 			<dict>
 				<key>AppleCpuPmCfgLock</key>
-				<true/>
+				<false/>
 				<key>AppleXcpmCfgLock</key>
-				<true/>
-				<key>AppleXcpmExtraMsrs</key>
-				<false/>
-				<key>CustomSMBIOSGuid</key>
-				<false/>
-				<key>DisableIoMapper</key>
-				<false/>
-				<key>ExternalDiskIcons</key>
-				<false/>
-				<key>LapicKernelPanic</key>
-				<false/>
-				<key>PanicNoKextDump</key>
-				<false/>
-				<key>PowerTimeoutKernelPanic</key>
-				<false/>
-				<key>ThirdPartyTrim</key>
-				<false/>
-				<key>XhciPortLimit</key>
 				<false/>
 			</dict>
 		</dict>
@@ -399,56 +311,12 @@
 				<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 				<dict>
 					<key>boot-args</key>
-					<string>Slide=1 darkwake=0</string>
-					<key>bootercfg</key>
-					<string>log=0 debug=0 level=0</string>
+					<string></string>
 					<key>csr-active-config</key>
 					<data>5wMAAA==</data>
-					<key>nvda_drv</key>
-					<data>MQ==</data>
 					<key>prev-lang:kbd</key>
 					<data>cnUtUlU6MjUy</data>
 				</dict>
-			</dict>
-			<key>Block</key>
-			<dict>
-				<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
-				<array>
-					<string>UIScale</string>
-				</array>
-				<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
-				<array>
-					<string>boot-args</string>
-				</array>
-			</dict>
-			<key>LegacyEnable</key>
-			<true/>
-			<key>LegacySchema</key>
-			<dict>
-				<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
-				<array>
-					<string>EFIBluetoothDelay</string>
-					<string>EFILoginHiDPI</string>
-					<string>LocationServicesEnabled</string>
-					<string>SystemAudioVolume</string>
-					<string>SystemAudioVolumeDB</string>
-					<string>bluetoothActiveControllerInfo</string>
-					<string>bluetoothInternalControllerInfo</string>
-					<string>efi-boot-device</string>
-					<string>efi-boot-device-data</string>
-					<string>flagstate</string>
-					<string>fmm-computer-name</string>
-					<string>nvda_drv</string>
-					<string>prev-lang:kbd</string>
-				</array>
-				<key>8BE4DF61-93CA-11D2-AA0D-00E098032B8C</key>
-				<array>
-					<string>Boot0080</string>
-					<string>Boot0081</string>
-					<string>Boot0082</string>
-					<string>BootNext</string>
-					<string>BootOrder</string>
-				</array>
 			</dict>
 		</dict>
 		<key>PlatformInfo</key>
@@ -470,17 +338,6 @@
 				<key>SystemUUID</key>
 				<string>CB838AF1-8237-4753-8BA2-02C642983BD1</string>
 			</dict>
-			<key>PlatformNVRAM</key>
-			<dict>
-				<key>FirmwareFeatures</key>
-				<string>66F48FFD 00000000</string>
-				<key>FirmwareFeaturesMask</key>
-				<string>7FFFDFFF 00000000</string>
-				<key>MLB</key>
-				<string>C07816101GUUE</string>
-				<key>ROM</key>
-				<data>ESIzAAAA</data>
-			</dict>
 			<key>UpdateDataHub</key>
 			<true/>
 			<key>UpdateNVRAM</key>
@@ -499,7 +356,6 @@
 				<string>ApfsDriverLoader.efi</string>
 				<string>FwRuntimeServices.efi</string>
 				<string>VirtualSmc.efi</string>
-				<string>EmuVariableRuntimeDxe.efi</string>
 				<string>HFSPlus.efi</string>
 			</array>
 			<key>Input</key>
@@ -523,28 +379,8 @@
 			</dict>
 			<key>Protocols</key>
 			<dict>
-				<key>AppleBootPolicy</key>
-				<false/>
-				<key>AppleEvent</key>
-				<false/>
-				<key>AppleImageConversion</key>
-				<false/>
-				<key>AppleKeyMap</key>
-				<false/>
-				<key>AppleUserInterfaceTheme</key>
-				<false/>
 				<key>ConsoleControl</key>
 				<true/>
-				<key>DataHub</key>
-				<false/>
-				<key>DeviceProperties</key>
-				<false/>
-				<key>FirmwareVolume</key>
-				<false/>
-				<key>HashServices</key>
-				<false/>
-				<key>UnicodeCollation</key>
-				<false/>
 			</dict>
 			<key>Quirks</key>
 			<dict>
@@ -557,7 +393,7 @@
 				<key>IgnoreInvalidFlexRatio</key>
 				<true/>
 				<key>IgnoreTextInGraphics</key>
-				<false/>
+				<true/>
 				<key>ProvideConsoleGop</key>
 				<true/>
 				<key>ReconnectOnResChange</key>
