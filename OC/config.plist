@@ -194,11 +194,11 @@
 				</dict>
 				<dict>
 					<key>BundlePath</key>
-					<string>IntelMausi.kext</string>
+					<string>IntelMausiEthernet.kext</string>
 					<key>Enabled</key>
 					<true/>
 					<key>ExecutablePath</key>
-					<string>Contents/MacOS/IntelMausi</string>
+					<string>Contents/MacOS/IntelMausiEthernet</string>
 					<key>PlistPath</key>
 					<string>Contents/Info.plist</string>
 				</dict>
